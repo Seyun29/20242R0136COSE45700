@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaGraphic.iml" filepath="$PROJECT_DIR$/JavaGraphic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaGraphic.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaGraphic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaGraphic.main.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaGraphic.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaGraphic.test.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaGraphic.test.iml" />
     </modules>
   </component>
 </project>

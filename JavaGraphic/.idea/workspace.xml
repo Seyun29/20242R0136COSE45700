@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="561f64b5-4cd7-4211-b7b5-0315c4873e06" name="Changes" comment="Apply Step1 to add feat(composite selection)">
+      <change beforePath="$PROJECT_DIR$/lab4/lambda_function/lambda_function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/request_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seyun29/Model/Canvas/CanvasModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seyun29/Model/Canvas/CanvasModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seyun29/Model/Canvas/NormalState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seyun29/Model/Canvas/NormalState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seyun29/Model/Canvas/SelectMultipleState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seyun29/Model/Canvas/SelectMultipleState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seyun29/Model/ShapeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seyun29/Model/ShapeModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seyun29/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seyun29/View/Panel/CanvasPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seyun29/View/Panel/CanvasPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seyun29/View/Panel/MenuPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seyun29/View/Panel/MenuPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seyun29/View/Panel/PropertyPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seyun29/View/Panel/PropertyPanel.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JavaGraphic" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JavaGraphic" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Seyun29&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Seyun29/20242R0136COSE45700&quot;,
+    &quot;accountId&quot;: &quot;59d54763-d107-4140-a7e1-8242edfb45ba&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2oHqyBmLEVXAQb1a3VRodVNUc8O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MainFrame.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.JavaGraphic [:Main.main()].executor": "Run",
+    "Gradle.JavaGraphic [:MainFrame.main()].executor": "Run",
+    "Gradle.JavaGraphic [:MyFrame.main()].executor": "Run",
+    "Gradle.JavaGraphic [:MyPanel.main()].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/jang/Documents/GitHub/JavaGraphic copy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="MainFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.seyun29.View.MainFrame" />
+      <module name="JavaGraphic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seyun29.View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainFrame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="561f64b5-4cd7-4211-b7b5-0315c4873e06" name="Changes" comment="" />
+      <created>1730537100862</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730537100862</updated>
+      <workItem from="1730537102154" duration="19958000" />
+      <workItem from="1730709928927" duration="40107000" />
+      <workItem from="1730956523746" duration="11392000" />
+      <workItem from="1732855694755" duration="194000" />
+      <workItem from="1733410721176" duration="24196000" />
+      <workItem from="1733920158266" duration="108000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initialize Repo">
+      <option name="closed" value="true" />
+      <created>1730537702406</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730537702406</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add basic frame &amp; panel">
+      <option name="closed" value="true" />
+      <created>1730540174763</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730540174763</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add basic frame &amp; panel">
+      <option name="closed" value="true" />
+      <created>1730540183267</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730540183267</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add basic objects (line, oval, rect)">
+      <option name="closed" value="true" />
+      <created>1730541825353</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730541825353</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add feature to select/move objects">
+      <option name="closed" value="true" />
+      <created>1730711543275</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730711543275</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1105">
+      <option name="closed" value="true" />
+      <created>1730739644806</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730739644806</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add feature to draw shapes and add images&amp;texts&#10;- TODO&#10;- set default stroke to thicker one&#10;- CSS &amp; Layouts&#10;- RESIZE with drag feature!!">
+      <option name="closed" value="true" />
+      <created>1730792603866</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730792603866</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Initially Refactored to reduce dependency &amp; apply MVC pattern">
+      <option name="closed" value="true" />
+      <created>1730905760647</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730905760647</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Refactored to use ShapeModel instead">
+      <option name="closed" value="true" />
+      <created>1730910250323</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730910250323</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Refactored to apply Observer, State pattern">
+      <option name="closed" value="true" />
+      <created>1733912571025</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733912571025</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Apply Step1 to add feat(composite selection)">
+      <option name="closed" value="true" />
+      <created>1733916860420</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733916860420</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initialize Repo" />
+    <MESSAGE value="add basic frame &amp; panel" />
+    <MESSAGE value="add basic objects (line, oval, rect)" />
+    <MESSAGE value="add feature to select/move objects" />
+    <MESSAGE value="1105" />
+    <MESSAGE value="add feature to draw shapes and add images&amp;texts&#10;- TODO&#10;- set default stroke to thicker one&#10;- CSS &amp; Layouts&#10;- RESIZE with drag feature!!" />
+    <MESSAGE value="Initially Refactored to reduce dependency &amp; apply MVC pattern" />
+    <MESSAGE value="Refactored to use ShapeModel instead" />
+    <MESSAGE value="Refactored to apply Observer, State pattern" />
+    <MESSAGE value="Apply Step1 to add feat(composite selection)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Apply Step1 to add feat(composite selection)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///opt/homebrew/Cellar/openjdk@17/17.0.13/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/geom/Line2D.java</url>
+          <line>960</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
