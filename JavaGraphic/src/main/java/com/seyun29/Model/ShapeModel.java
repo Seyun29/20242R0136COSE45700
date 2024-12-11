@@ -2,6 +2,7 @@ package com.seyun29.Model;
 
 import com.seyun29.Model.Shape.Shape;
 import com.seyun29.View.Observer;
+import com.seyun29.View.Panel.PropertyPanel;
 import lombok.Getter;
 
 import java.awt.*;
@@ -53,9 +54,7 @@ public class ShapeModel {
         observers.add(observer);
     }
 
-    public void removeObserver(Observer observer) {
-        observers.remove(observer);
-    }
+    public void removeObserver(Observer observer) { observers.remove(observer); }
 
     public void notifyObservers() {
         observers.forEach(Observer::update);
@@ -101,8 +100,17 @@ public class ShapeModel {
         return null;
     }
 
-    public void updateShapeProperties(Shape shape) {
-
+    public void updateShape(Shape shape, PropertyPanel propertyPanel) {
+        shape.setText(propertyPanel.stringField.getText().isEmpty() ? null : propertyPanel.stringField.getText());
+        shape.setX1(Double.parseDouble(propertyPanel.x1Field.getText()));
+        shape.setY1(Double.parseDouble(propertyPanel.y1Field.getText()));
+        shape.setX2(propertyPanel.x2Field.getText().isEmpty() ? null : Double.parseDouble(propertyPanel.x2Field.getText()));
+        shape.setY2(propertyPanel.y2Field.getText().isEmpty() ? null : Double.parseDouble(propertyPanel.y2Field.getText()));
+        shape.setWidth(propertyPanel.widthField.getText().isEmpty() ? null : Double.parseDouble(propertyPanel.widthField.getText()));
+        shape.setHeight(propertyPanel.heightField.getText().isEmpty() ? null : Double.parseDouble(propertyPanel.heightField.getText()));
+        shape.setStroke(Integer.parseInt(propertyPanel.strokeField.getText()));
+        shape.setColor(Color.decode(propertyPanel.colorField.getText()));
+        notifyObservers();
     }
 
 }

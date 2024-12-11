@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="561f64b5-4cd7-4211-b7b5-0315c4873e06" name="Changes" comment="Apply Step1 to add feat(composite selection)">
-      <change beforePath="$PROJECT_DIR$/lab4/lambda_function/lambda_function.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/request_generator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seyun29/Model/Canvas/CanvasModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seyun29/Model/Canvas/CanvasModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seyun29/Model/Canvas/NormalState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seyun29/Model/Canvas/NormalState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seyun29/Model/Canvas/SelectMultipleState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seyun29/Model/Canvas/SelectMultipleState.java" afterDir="false" />
+    <list default="true" id="561f64b5-4cd7-4211-b7b5-0315c4873e06" name="Changes" comment="update vcs.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seyun29/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seyun29/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seyun29/Model/Canvas/DrawLineState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seyun29/Model/Canvas/DrawLineState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/seyun29/Model/ShapeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seyun29/Model/ShapeModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seyun29/Observer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seyun29/View/Panel/CanvasPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seyun29/View/Panel/CanvasPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seyun29/View/Panel/MenuPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seyun29/View/Panel/MenuPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seyun29/View/Panel/PropertyPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seyun29/View/Panel/PropertyPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +51,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -66,12 +60,12 @@
     &quot;assignee&quot;: &quot;Seyun29&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Seyun29/20242R0136COSE45700&quot;,
-    &quot;accountId&quot;: &quot;59d54763-d107-4140-a7e1-8242edfb45ba&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Seyun29/20242R0136COSE44400.git",
+    "accountId": "59d54763-d107-4140-a7e1-8242edfb45ba"
   }
-}</component>
+}]]></component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -101,7 +95,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/jang/Documents/GitHub/JavaGraphic copy",
+    "last_opened_file_path": "/Users/jang/Documents/GitHub/JavaGraphic/JavaGraphic",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -111,7 +105,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -157,6 +151,7 @@
       <workItem from="1732855694755" duration="194000" />
       <workItem from="1733410721176" duration="24196000" />
       <workItem from="1733920158266" duration="108000" />
+      <workItem from="1733920599389" duration="5271000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize Repo">
       <option name="closed" value="true" />
@@ -246,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733916860420</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update vcs.xml">
+      <option name="closed" value="true" />
+      <created>1733920661882</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733920661882</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +267,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="Initialize Repo" />
     <MESSAGE value="add basic frame &amp; panel" />
     <MESSAGE value="add basic objects (line, oval, rect)" />
@@ -274,7 +280,8 @@
     <MESSAGE value="Refactored to use ShapeModel instead" />
     <MESSAGE value="Refactored to apply Observer, State pattern" />
     <MESSAGE value="Apply Step1 to add feat(composite selection)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Apply Step1 to add feat(composite selection)" />
+    <MESSAGE value="update vcs.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="update vcs.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

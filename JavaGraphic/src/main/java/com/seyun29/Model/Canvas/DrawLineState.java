@@ -11,7 +11,6 @@ import java.awt.event.MouseEvent;
 public class DrawLineState implements CanvasState {
     @Override
     public void onMousePressed(MouseEvent e, CanvasModel canvasModel, ShapeModel shapeModel) {
-        //TODO: command pattern 적용?
         canvasModel.setStartPoint(e.getPoint());
         Point startPoint = canvasModel.getStartPoint();
         Line currentLine = new Line(startPoint.getX(), startPoint.getY(), startPoint.getX(), startPoint.getY(), 3, Helper.randomColor());

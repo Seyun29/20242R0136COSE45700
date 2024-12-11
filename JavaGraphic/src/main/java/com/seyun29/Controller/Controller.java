@@ -86,8 +86,6 @@ public class Controller {
             File selectedFile = fileChooser.getSelectedFile();
             Image image = Helper.createImage(selectedFile.getAbsolutePath());
             shapeModel.addShape(image);
-        } else {
-            System.out.println("No file selected");
         }
     }
 
@@ -99,16 +97,7 @@ public class Controller {
         ArrayList<Shape> selectedShapes = shapeModel.getSelectedShapes();
         if (selectedShapes != null) {
             Shape currentShape = selectedShapes.get(0);
-            currentShape.setText(propertyPanel.stringField.getText().isEmpty() ? null : propertyPanel.stringField.getText());
-            currentShape.setX1(Double.parseDouble(propertyPanel.x1Field.getText()));
-            currentShape.setY1(Double.parseDouble(propertyPanel.y1Field.getText()));
-            currentShape.setX2(propertyPanel.x2Field.getText().isEmpty() ? null : Double.parseDouble(propertyPanel.x2Field.getText()));
-            currentShape.setY2(propertyPanel.y2Field.getText().isEmpty() ? null : Double.parseDouble(propertyPanel.y2Field.getText()));
-            currentShape.setWidth(propertyPanel.widthField.getText().isEmpty() ? null : Double.parseDouble(propertyPanel.widthField.getText()));
-            currentShape.setHeight(propertyPanel.heightField.getText().isEmpty() ? null : Double.parseDouble(propertyPanel.heightField.getText()));
-            currentShape.setStroke(Integer.parseInt(propertyPanel.strokeField.getText()));
-            currentShape.setColor(Color.decode(propertyPanel.colorField.getText()));
-            canvasPanel.repaint(); //FIXME: move this to ShapeModel
+            shapeModel.updateShape(currentShape, propertyPanel);
         }
     }
 
